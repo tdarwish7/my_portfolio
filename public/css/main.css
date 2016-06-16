@@ -29,3 +29,32 @@ div#navigation li a{
   color: #fff;
   font-size: 20px;
 }
+
+.row{
+  margin: 0 auto;
+  width: 730px;
+}
+
+.col-md-4{
+  display: inline-block;
+}
+
+.row img{
+  display: inline-block;
+  height: 250px;
+}
+
+
+
+.mission{
+  font-family: Trebuchet MS, sans-serif;
+  text-align: center;
+}
+
+.mission h2{
+  font-size: 30px;
+}
+
+.mission p{
+  font-size: 21px;
+}
