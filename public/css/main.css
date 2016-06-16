@@ -58,3 +58,8 @@ div#navigation li a{
 .mission p{
   font-size: 21px;
 }
+
+.missionimg{
+  margin: 0 auto;
+  width: 730px;
+}
