@@ -1,6 +1,7 @@
 html {
   background-color: #fcf2f2;
-  font-family: fantasy, sans-serif;;
+  font-family: fantasy, sans-serif;
+  background-image:url(http://wallpapercave.com/wp/vND5klG.jpg);
 }
 
 div#banner{
@@ -15,6 +16,7 @@ div#navigation{
   background-color: #f41d1d;
   width: 100%;
   height: 5%;
+  opacity: 0.5;
 }
 
 div#navigation li{
@@ -28,6 +30,10 @@ div#navigation li a{
   text-decoration: none;
   color: #fff;
   font-size: 20px;
+}
+
+div#navigation li a:hover{
+  color: #9adced;
 }
 
 .row{
@@ -48,6 +54,7 @@ div#navigation li a{
 
 .mission{
   font-family: Trebuchet MS, sans-serif;
+  color: #fff;
   text-align: center;
 }
 
@@ -62,4 +69,17 @@ div#navigation li a{
 .missionimg{
   margin: 0 auto;
   width: 730px;
+}
+
+.missionimg img{
+  border: 3px solid black;
+}
+
+.contact{
+  border: 2px solid black;
+}
+
+form{
+  margin: 0 auto;
+  width: 200px;
 }
